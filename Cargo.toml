@@ -22,3 +22,6 @@ quickcheck = "0.9"
 rayon = "1.5"
 num-traits = "0.2"
 num-iter = "0.1"
+
+[lib]
+crate_type = ["cdylib"]
